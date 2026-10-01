@@ -1,13 +1,15 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "6eab0895-7479-4db6-95d3-a822a273ff9d")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -74,8 +76,19 @@
 			)
 			(symbol "Conn_01x03_1_1"
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -96,25 +109,14 @@
 					)
 				)
 				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
 					)
 				)
 				(pin passive line
@@ -172,10 +174,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector_Generic:Conn_01x05"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -242,30 +247,19 @@
 			)
 			(symbol "Conn_01x05_1_1"
 				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
+					(start -1.27 6.35)
+					(end 1.27 -6.35)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
+					(start -1.27 5.207)
+					(end 0 4.953)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -286,8 +280,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
+					(start -1.27 0.127)
+					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -297,14 +291,25 @@
 					)
 				)
 				(rectangle
-					(start -1.27 6.35)
-					(end 1.27 -6.35)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
@@ -398,10 +403,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector_Generic:Conn_01x06"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -468,41 +476,19 @@
 			)
 			(symbol "Conn_01x06_1_1"
 				(rectangle
-					(start -1.27 -7.493)
-					(end 0 -7.747)
+					(start -1.27 6.35)
+					(end 1.27 -8.89)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
+					(start -1.27 5.207)
+					(end 0 4.953)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -523,8 +509,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
+					(start -1.27 0.127)
+					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -534,14 +520,36 @@
 					)
 				)
 				(rectangle
-					(start -1.27 6.35)
-					(end 1.27 -8.89)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
@@ -653,9 +661,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -728,7 +739,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -740,7 +751,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -789,9 +800,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -910,6 +924,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
@@ -992,9 +1007,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SamacSys_Parts:AP1608SURCK"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1142,6 +1160,30 @@
 				)
 				(polyline
 					(pts
+						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.334 4.318) (xy 4.572 3.556) (xy 3.81 5.08) (xy 5.334 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
 						(xy 6.35 2.54) (xy 3.81 5.08)
 					)
 					(stroke
@@ -1150,6 +1192,18 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.874 4.318) (xy 7.112 3.556) (xy 6.35 5.08) (xy 7.874 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -1176,40 +1230,22 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.334 4.318) (xy 4.572 3.556) (xy 3.81 5.08) (xy 5.334 4.318)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.874 4.318) (xy 7.112 3.556) (xy 6.35 5.08) (xy 7.874 4.318)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 				(pin passive line
@@ -1230,31 +1266,18 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3V3"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1326,7 +1349,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1338,7 +1361,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1369,12 +1392,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+8V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1446,7 +1474,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1458,7 +1486,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1489,12 +1517,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1585,6 +1618,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -1845,7 +1879,6 @@
 	)
 	(label "ELE"
 		(at 54.61 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1856,7 +1889,6 @@
 	)
 	(label "MOSI_SD"
 		(at 193.04 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1867,7 +1899,6 @@
 	)
 	(label "P_LAD_SPARE"
 		(at 193.04 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1878,7 +1909,6 @@
 	)
 	(label "P_LAD"
 		(at 193.04 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1889,7 +1919,6 @@
 	)
 	(label "SCK_SD"
 		(at 193.04 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1900,7 +1929,6 @@
 	)
 	(label "P_SW"
 		(at 193.04 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1911,7 +1939,6 @@
 	)
 	(label "L_GEAR"
 		(at 162.56 53.34 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1922,7 +1949,6 @@
 	)
 	(label "uart_rx"
 		(at 168.91 113.03 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1933,7 +1959,6 @@
 	)
 	(label "LAD"
 		(at 53.34 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1944,7 +1969,6 @@
 	)
 	(label "R_GEAR"
 		(at 27.94 167.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1955,7 +1979,6 @@
 	)
 	(label "MISO_SD"
 		(at 193.04 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1966,7 +1989,6 @@
 	)
 	(label "uart_rx"
 		(at 219.71 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1977,7 +1999,6 @@
 	)
 	(label "MOSI_SD"
 		(at 231.14 46.99 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1988,7 +2009,6 @@
 	)
 	(label "PWM_SPARE3"
 		(at 148.59 113.03 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1999,7 +2019,6 @@
 	)
 	(label "LED2"
 		(at 133.35 88.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2010,7 +2029,6 @@
 	)
 	(label "ELE_PIO"
 		(at 133.35 59.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2021,7 +2039,6 @@
 	)
 	(label "L_HAT"
 		(at 77.47 158.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2032,7 +2049,6 @@
 	)
 	(label "L_GEAR"
 		(at 77.47 166.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2043,7 +2059,6 @@
 	)
 	(label "LED1"
 		(at 133.35 92.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2054,7 +2069,6 @@
 	)
 	(label "uart_tx"
 		(at 172.72 113.03 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2065,7 +2079,6 @@
 	)
 	(label "P_ELE"
 		(at 193.04 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2076,7 +2089,6 @@
 	)
 	(label "P_ELE"
 		(at 210.82 144.78 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2087,7 +2099,6 @@
 	)
 	(label "P_SW_SPARE"
 		(at 236.22 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2098,7 +2109,6 @@
 	)
 	(label "PWM_SPARE4"
 		(at 170.18 158.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2109,7 +2119,6 @@
 	)
 	(label "LED1"
 		(at 69.85 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2120,7 +2129,6 @@
 	)
 	(label "P_SW"
 		(at 210.82 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2131,7 +2139,6 @@
 	)
 	(label "PWM_SPARE4"
 		(at 156.21 113.03 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2142,7 +2149,6 @@
 	)
 	(label "R_GEAR"
 		(at 160.02 53.34 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2153,7 +2159,6 @@
 	)
 	(label "L_HAT"
 		(at 173.99 53.34 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2164,7 +2169,6 @@
 	)
 	(label "P_LAD_SPARE"
 		(at 236.22 142.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2175,7 +2179,6 @@
 	)
 	(label "R_HAT"
 		(at 27.94 160.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2186,7 +2189,6 @@
 	)
 	(label "!buzzer"
 		(at 254 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2197,7 +2199,6 @@
 	)
 	(label "LED2"
 		(at 69.85 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2208,7 +2209,6 @@
 	)
 	(label "PWM_SPARE1"
 		(at 148.59 142.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2219,7 +2219,6 @@
 	)
 	(label "LAD_PIO"
 		(at 133.35 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2230,7 +2229,6 @@
 	)
 	(label "CS_SD"
 		(at 231.14 49.53 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2241,7 +2239,6 @@
 	)
 	(label "LAD_PIO"
 		(at 101.6 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2252,7 +2249,6 @@
 	)
 	(label "SCK_SD"
 		(at 231.14 52.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2263,7 +2259,6 @@
 	)
 	(label "ELE"
 		(at 133.35 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2274,7 +2269,6 @@
 	)
 	(label "!buzzer"
 		(at 147.32 53.34 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2285,7 +2279,6 @@
 	)
 	(label "P_LAD"
 		(at 210.82 142.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2296,7 +2289,6 @@
 	)
 	(label "P_ELE_SPARE"
 		(at 236.22 144.78 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2307,7 +2299,6 @@
 	)
 	(label "PWM_SPARE3"
 		(at 148.59 160.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2318,7 +2309,6 @@
 	)
 	(label "ELE_PIO"
 		(at 110.49 63.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2329,7 +2319,6 @@
 	)
 	(label "LAD"
 		(at 133.35 80.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2340,7 +2329,6 @@
 	)
 	(label "P_SW_SPARE"
 		(at 193.04 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2351,7 +2339,6 @@
 	)
 	(label "PWM_SPARE1"
 		(at 153.67 113.03 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2362,7 +2349,6 @@
 	)
 	(label "R_HAT"
 		(at 176.53 53.34 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2373,7 +2359,6 @@
 	)
 	(label "P_ELE_SPARE"
 		(at 193.04 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2384,7 +2369,6 @@
 	)
 	(label "PWM_SPARE2"
 		(at 170.18 142.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2395,7 +2379,6 @@
 	)
 	(label "CS_SD"
 		(at 193.04 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2406,7 +2389,6 @@
 	)
 	(label "MISO_SD"
 		(at 231.14 54.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2417,7 +2399,6 @@
 	)
 	(label "PWM_SPARE2"
 		(at 151.13 113.03 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2428,7 +2409,6 @@
 	)
 	(label "uart_tx"
 		(at 219.71 115.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6548,6 +6528,10 @@
 	(sheet
 		(at 254 80.01)
 		(size 13.97 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -6577,13 +6561,13 @@
 		)
 		(pin "BUZZER_RINGING_SIDE" input
 			(at 254 83.82 180)
+			(uuid "54b66a02-9437-4276-acd5-73aed8196a5d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "54b66a02-9437-4276-acd5-73aed8196a5d")
 		)
 		(instances
 			(project "QX25steering"
@@ -6596,6 +6580,10 @@
 	(sheet
 		(at 231.14 44.45)
 		(size 21.59 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -6625,43 +6613,43 @@
 		)
 		(pin "MOSI_SD" input
 			(at 231.14 46.99 180)
+			(uuid "f1a9ceb8-ee58-48df-92d1-4785972a32ec")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f1a9ceb8-ee58-48df-92d1-4785972a32ec")
 		)
 		(pin "CS_SD" input
 			(at 231.14 49.53 180)
+			(uuid "41800d27-d841-488f-b768-b545b6478e2a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "41800d27-d841-488f-b768-b545b6478e2a")
 		)
 		(pin "SCLK_SD" input
 			(at 231.14 52.07 180)
+			(uuid "df588083-3d48-420a-8133-aa861bcf59d7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "df588083-3d48-420a-8133-aa861bcf59d7")
 		)
 		(pin "MISO_SD" input
 			(at 231.14 54.61 180)
+			(uuid "fa7ca6ae-ba88-4588-8108-da94f4dcafa8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "fa7ca6ae-ba88-4588-8108-da94f4dcafa8")
 		)
 		(instances
 			(project "QX25steering"
@@ -6674,6 +6662,10 @@
 	(sheet
 		(at 133.35 53.34)
 		(size 59.69 59.69)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -6703,273 +6695,273 @@
 		)
 		(pin "P_LAD" input
 			(at 193.04 85.09 0)
+			(uuid "771b4f1b-0b69-49a2-8059-ffdec708cf8c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "771b4f1b-0b69-49a2-8059-ffdec708cf8c")
 		)
 		(pin "P_SW" input
 			(at 193.04 82.55 0)
+			(uuid "e41aa4fe-4854-42d8-884d-14bd5c851463")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e41aa4fe-4854-42d8-884d-14bd5c851463")
 		)
 		(pin "P_ELE" input
 			(at 193.04 80.01 0)
+			(uuid "dc28b216-61df-4db8-8dc1-a1a3f669484f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "dc28b216-61df-4db8-8dc1-a1a3f669484f")
 		)
 		(pin "SCK" input
 			(at 193.04 68.58 0)
+			(uuid "a6df9a31-0fa1-4e86-b7d6-c540ccf36b81")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a6df9a31-0fa1-4e86-b7d6-c540ccf36b81")
 		)
 		(pin "MOSI" input
 			(at 193.04 66.04 0)
+			(uuid "eacc1714-d4d3-47aa-942b-8396d6d688e6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "eacc1714-d4d3-47aa-942b-8396d6d688e6")
 		)
 		(pin "CS" input
 			(at 193.04 63.5 0)
+			(uuid "8fbc4fb8-b811-4809-92ed-8b1bbde27edd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8fbc4fb8-b811-4809-92ed-8b1bbde27edd")
 		)
 		(pin "MISO" input
 			(at 193.04 60.96 0)
+			(uuid "40115498-ec08-4cd6-aa8e-93fd15093f2d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "40115498-ec08-4cd6-aa8e-93fd15093f2d")
 		)
 		(pin "L_HAT" input
 			(at 173.99 53.34 90)
+			(uuid "7670d240-e000-4ea6-bd12-484795af17e7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7670d240-e000-4ea6-bd12-484795af17e7")
 		)
 		(pin "R_HAT" input
 			(at 176.53 53.34 90)
+			(uuid "1ab29fd6-df60-4057-bd74-43863a6b91c7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1ab29fd6-df60-4057-bd74-43863a6b91c7")
 		)
 		(pin "L_GEAR" input
 			(at 162.56 53.34 90)
+			(uuid "8356eb70-a793-4d9a-a7ce-f55d8ee6e0a0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8356eb70-a793-4d9a-a7ce-f55d8ee6e0a0")
 		)
 		(pin "R_GEAR" input
 			(at 160.02 53.34 90)
+			(uuid "87ebe839-784e-458c-9f26-28226244b3a7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "87ebe839-784e-458c-9f26-28226244b3a7")
 		)
 		(pin "BUZZER" input
 			(at 147.32 53.34 90)
+			(uuid "c360095f-a7ce-4559-875e-ba96af8ec9b6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c360095f-a7ce-4559-875e-ba96af8ec9b6")
 		)
 		(pin "ELE" input
 			(at 133.35 64.77 180)
+			(uuid "b2b8b7fd-6751-4a0a-9e91-da37c73a33af")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b2b8b7fd-6751-4a0a-9e91-da37c73a33af")
 		)
 		(pin "LAD" input
 			(at 133.35 80.01 180)
+			(uuid "4563e1e5-9ae2-4e29-a0bb-3edc29e92289")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4563e1e5-9ae2-4e29-a0bb-3edc29e92289")
 		)
 		(pin "LED2" input
 			(at 133.35 88.9 180)
+			(uuid "7c8188c9-4468-4883-972e-4efd23021255")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7c8188c9-4468-4883-972e-4efd23021255")
 		)
 		(pin "ELE_PIO" input
 			(at 133.35 59.69 180)
+			(uuid "1577140c-7e1b-4211-946c-8227f90f8dbd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1577140c-7e1b-4211-946c-8227f90f8dbd")
 		)
 		(pin "LAD_PIO" input
 			(at 133.35 74.93 180)
+			(uuid "52b57c42-fd72-47f8-ac74-d57f52de481a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "52b57c42-fd72-47f8-ac74-d57f52de481a")
 		)
 		(pin "PWM_SPARE1" input
 			(at 153.67 113.03 270)
+			(uuid "65beb82d-5256-4ef1-a2ee-c8c48e10b0c8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "65beb82d-5256-4ef1-a2ee-c8c48e10b0c8")
 		)
 		(pin "PWM_SPARE2" input
 			(at 151.13 113.03 270)
+			(uuid "2bb9a69e-67e6-4f67-b90e-04d7d2684ea5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2bb9a69e-67e6-4f67-b90e-04d7d2684ea5")
 		)
 		(pin "PWM_SPARE3" input
 			(at 148.59 113.03 270)
+			(uuid "84c1c0f2-d39f-46f8-a26b-538b11e54587")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "84c1c0f2-d39f-46f8-a26b-538b11e54587")
 		)
 		(pin "P_ELE_SPARE" input
 			(at 193.04 92.71 0)
+			(uuid "a4e17f33-3be8-4ca9-8c00-ac516adb805f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a4e17f33-3be8-4ca9-8c00-ac516adb805f")
 		)
 		(pin "P_LAD_SPARE" input
 			(at 193.04 97.79 0)
+			(uuid "802849b6-63a4-42d5-8c9f-d5aaf9d91598")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "802849b6-63a4-42d5-8c9f-d5aaf9d91598")
 		)
 		(pin "P_SW_SPARE" input
 			(at 193.04 95.25 0)
+			(uuid "611f3056-89fb-4e44-904b-1d0dd4d6ed63")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "611f3056-89fb-4e44-904b-1d0dd4d6ed63")
 		)
 		(pin "UART1_TX" input
 			(at 172.72 113.03 270)
+			(uuid "7808a7b1-0aa2-4c47-9718-44d4819e37b0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7808a7b1-0aa2-4c47-9718-44d4819e37b0")
 		)
 		(pin "LED1" input
 			(at 133.35 92.71 180)
+			(uuid "8254832a-3b66-4c98-982a-8fe806b7539b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8254832a-3b66-4c98-982a-8fe806b7539b")
 		)
 		(pin "PWM_SPARE4" input
 			(at 156.21 113.03 270)
+			(uuid "8767b8e0-4277-40f6-82d9-372417029aaa")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8767b8e0-4277-40f6-82d9-372417029aaa")
 		)
 		(pin "UART1_RX" input
 			(at 168.91 113.03 270)
+			(uuid "b738b700-6a09-4707-8f17-67a59c713e10")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b738b700-6a09-4707-8f17-67a59c713e10")
 		)
 		(instances
 			(project "QX25steering"
@@ -6982,6 +6974,10 @@
 	(sheet
 		(at 110.49 54.61)
 		(size 12.7 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -7011,23 +7007,23 @@
 		)
 		(pin "ELE_LOAD" input
 			(at 110.49 57.15 180)
+			(uuid "a7366d7a-2863-4de8-a404-1348f67635d6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a7366d7a-2863-4de8-a404-1348f67635d6")
 		)
 		(pin "ELE_ANP_V_OUT" input
 			(at 110.49 63.5 180)
+			(uuid "469ecfb4-f7c2-4843-bdc2-ac8d299af9a1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "469ecfb4-f7c2-4843-bdc2-ac8d299af9a1")
 		)
 		(instances
 			(project "QX25steering"
@@ -7040,6 +7036,10 @@
 	(sheet
 		(at 101.6 77.47)
 		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -7069,23 +7069,23 @@
 		)
 		(pin "LAD_LOAD" input
 			(at 101.6 81.28 180)
+			(uuid "d1e18c03-651e-46fc-86f7-0d4a18417475")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d1e18c03-651e-46fc-86f7-0d4a18417475")
 		)
 		(pin "LAD_ANP_V_OUT" input
 			(at 101.6 86.36 180)
+			(uuid "c53dec05-ef26-4765-b2be-adf7eba9577a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c53dec05-ef26-4765-b2be-adf7eba9577a")
 		)
 		(instances
 			(project "QX25steering"
@@ -7100,4 +7100,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
